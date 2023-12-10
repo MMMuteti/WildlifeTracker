@@ -4,6 +4,7 @@
 
 ## Description
 This application allows the user to track, add a sighting for either a common or endangered animal and view the sightings.
+![img.png](C:\Users\MMuteti\Desktop\MORINGA_SCHOOL\School_Projects\WildlifeTracker\src\main\resources\public\img.png)
 
 ## User Requirements
 The application allow users to do the following:

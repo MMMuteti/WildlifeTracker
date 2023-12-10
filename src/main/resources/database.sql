@@ -1,4 +1,4 @@
-CREATE DATABASE wildlife_tracker;
+CREATE DATABASE WildLifeTracker;
 
 CREATE TABLE sightings(
 id serial PRIMARY KEY,

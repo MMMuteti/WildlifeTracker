@@ -30,6 +30,8 @@ The application allow users to do the following:
 
 ## Bugs
 The sighting details are saved into the database.
+There are currently no tests done for this project.
+Thanks for understanding.
 
 ## Contact Details
 

@@ -5,6 +5,7 @@ background-repeat:no-repeat;
 background-size:cover;
 width:100%;
 }
+
 .container-fluid{
 width:100%;
 }
@@ -52,6 +53,7 @@ margin-top:32px;
 background-color: ##FF9900;
 border-color: ##FF9900;
 }
+
 .btn-custom:hover{
 background-color: ##FF9900;
 border-color: #fff;

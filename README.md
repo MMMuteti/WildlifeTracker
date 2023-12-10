@@ -3,7 +3,7 @@
 ##### By Moses Muteti
 
 ## Description
-This application allows the user to track, add a sighting for either a common or endangered animal and view the sightings.
+This application allows the user and rangers to track, add a sighting - for either a common or endangered animal - and view the sightings.
 
 
 ![Image](https://www.transparentpng.com/thumb/animal/X5QmnG-free-illustrationanimals-wildlife-nature-wild-free.png)
@@ -29,8 +29,7 @@ The application allow users to do the following:
 - Git and Github
 
 ## Bugs
-The sighting details are saved into the database but couldn't display on the view once saved.
-
+The sighting details are saved into the database.
 
 ## Contact Details
 

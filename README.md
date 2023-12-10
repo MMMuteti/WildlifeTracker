@@ -4,6 +4,8 @@
 
 ## Description
 This application allows the user to track, add a sighting for either a common or endangered animal and view the sightings.
+
+
 ![Image](https://www.transparentpng.com/thumb/animal/X5QmnG-free-illustrationanimals-wildlife-nature-wild-free.png)
 
 ## User Requirements

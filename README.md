@@ -4,7 +4,7 @@
 
 ## Description
 This application allows the user to track, add a sighting for either a common or endangered animal and view the sightings.
-![Image](C:\Users\MMuteti\Desktop\MORINGA_SCHOOL\School_Projects\WildlifeTracker)
+![Image](https://www.transparentpng.com/thumb/animal/X5QmnG-free-illustrationanimals-wildlife-nature-wild-free.png" alt="five collage of animal pictures clipart , eagle, wolf, tiger, lion, giraffe @transparentpng.com)
 
 ## User Requirements
 The application allow users to do the following:

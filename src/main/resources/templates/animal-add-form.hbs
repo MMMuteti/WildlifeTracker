@@ -1,0 +1,96 @@
+{{#partial "content"}}
+    <h3 class="mt-5 text-white">Add a Sighting</h3>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+               aria-selected="true">Endangered</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+               aria-selected="false">Animal</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="card col-md-4 mt-4">
+                <form action="/sightings/add" method="post" name="endangeredForm">
+                    <div class="form-group">
+                        <label for="wildlifeName">Wildlife Name</label>
+                        <select name="wildlifeName" id="endangeredForm" class="form-control">
+                            <option value="Endangered" selected>Endangered</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="rangerName">Ranger Name</label>
+                        <input type="text" name="rangerName" id="rangerName" class="form-control"
+                               placeholder="- Ranger Name -">
+                    </div>
+                    <div class="form-group">
+                        <label for="health">Health</label>
+                        <select name="health" id="health" class="form-control">
+                            <option label="-Endangered Animal Health -"></option>
+                            <option value="{{healthy}}">{{healthy}}</option>
+                            <option value="{{ill}}">{{ill}}</option>
+                            <option value="{{okay}}">{{okay}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <select name="age" id="age" class="form-control">
+                            <option label="-Endangered Animal Age -"></option>
+                            <option value="{{newborn}}">{{newborn}}</option>
+                            <option value="{{young}}">{{young}}</option>
+                            <option value="{{adult}}">{{adult}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <select name="location" id="location" class="form-control">
+                            <option label="- Location -"></option>
+                            <option value="By the riverside">By the riverside</option>
+                            <option value="East">East</option>
+                            <option value="West">West</option>
+                            <option value="At the Camp">At the Camp</option>
+                            <option value="In the Savannah">In the Savannah</option>
+                            <option value="Deep in the woods">Deep in the woods</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-success  mb-4 btn-custom" type="submit">Add Sighting</button>
+                </form>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="card col-md-4 mt-4">
+                <form action="/sightings/add" method="post" name="animalForm">
+                    <div class="form-group">
+                        <label for="animalName">Wildlife Name</label>
+                        <select name="animalName" id="animalName" class="form-control">
+                            <option value="Animal" selected>Animal</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="animalRangerName">Ranger Name</label>
+                        <input type="text" name="animalRangerName" id="animalRangerName" class="form-control"
+                               placeholder="- Ranger Name -">
+                    </div>
+                    <div class="form-group">
+                        <label for="animalLocation">Location</label>
+                        <select name="animalLocation" id="animalLocation" class="form-control">
+                            <option label="- Location -"></option>
+                            <option value="By the riverside">By the riverside</option>
+                            <option value="East">East</option>
+                            <option value="West">West</option>
+                            <option value="At the Camp">At the Camp</option>
+                            <option value="In the Savannah">In the Savannah</option>
+                            <option value="Deep in the woods">Deep in the woods</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-success  mb-4 btn-custom" type="submit">Add Sighting</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+{{/partial}}
+{{>layout.hbs}}

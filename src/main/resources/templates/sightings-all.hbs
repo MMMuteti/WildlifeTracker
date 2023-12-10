@@ -1,0 +1,22 @@
+{{#partial "content"}}
+    <h4 class="mt-large text-white mb-5">Here goes Sightings from different rangers</h4>
+
+    <div class="parallax"></div>
+
+    {{#if sightings }}
+        <div class="row mt-5">
+            {{#each sightings}}
+                <div class="card text-center  ml-2" style="width:18rem;">
+                    <h3>{{rangerName}}</h3>
+                    <p>Time| {{sightingTime}}</p>
+                    <p>Zone| {{sightingZone}}</p>
+                </div>
+            {{/each}}
+        </div>
+
+    {{else}}
+        <h1>No Sightings yet</h1>
+    {{/if}}
+{{/partial}}
+
+{{>layout.hbs}}

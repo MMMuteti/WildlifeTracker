@@ -4,7 +4,7 @@
 
 ## Description
 This application allows the user to track, add a sighting for either a common or endangered animal and view the sightings.
-![img.png](C:\Users\MMuteti\Desktop\MORINGA_SCHOOL\School_Projects\WildlifeTracker\src\main\resources\public\img.png)
+![Image](https://w0.peakpx.com/wallpaper/894/476/HD-wallpaper-panther-black-jaguar-wild-cat-black-panther-dangerous-animals-panther-on-a-black-background.jpg)
 
 ## User Requirements
 The application allow users to do the following:

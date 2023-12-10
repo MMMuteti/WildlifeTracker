@@ -4,7 +4,7 @@
 
 ## Description
 This application allows the user to track, add a sighting for either a common or endangered animal and view the sightings.
-![Image](https://w0.peakpx.com/wallpaper/894/476/HD-wallpaper-panther-black-jaguar-wild-cat-black-panther-dangerous-animals-panther-on-a-black-background.jpg)
+![Image](https://www.cleanpng.com/png-zoo-tycoon-2-cheetah-green-peafowl-bird-peafowl-744108/preview.html)
 
 ## User Requirements
 The application allow users to do the following:

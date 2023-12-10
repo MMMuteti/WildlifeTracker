@@ -4,7 +4,7 @@
 
 ## Description
 This application allows the user to track, add a sighting for either a common or endangered animal and view the sightings.
-![Image](https://www.cleanpng.com/png-zoo-tycoon-2-cheetah-green-peafowl-bird-peafowl-744108/preview.html)
+![Image](https://banner2.cleanpng.com/20180330/zzq/kisspng-zoo-tycoon-2-cheetah-green-peafowl-bird-peafowl-5abe56f4c912f6.9387845915224235408236.jpg)
 
 ## User Requirements
 The application allow users to do the following:
